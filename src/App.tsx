@@ -1,13 +1,14 @@
 import './App.css'
 import Card from './components/ProfileCard'
 
+
 export type ProfileCard = {
-  image: string;
-  name: string;
-  role: string;
-  linkedin: string;
-  github: string;
-  gmail: string;
+  image: string,
+  name: string,
+  role: string,
+  linkedin: string,
+  github: string,
+  gmail: string,
 }
 
 function App() {
@@ -114,18 +115,18 @@ function App() {
     <>
     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 p-8 '>
 
-      <Card  {...profile1} />
-      <Card {...profile2} />
-      <Card {...profile3} />
-      <Card {...profile4} />
-      <Card {...profile5} />
-      <Card {...profile6} />
-      <Card {...profile7} />
-      <Card {...profile8} />
-      <Card {...profile9} />
-      <Card {...profile10} />
-      <Card {...profile11} />
-      <Card {...profile12} />
+      <Card  image={profile1.image} name={profile1.name} role={profile1.role} linkedin={profile1.linkedin} github={profile1.github} gmail={profile1.gmail} />
+      <Card image={profile2.image} name={profile2.name} role={profile2.role} linkedin={profile2.linkedin} github={profile2.github} gmail={profile2.gmail} />
+      <Card  image={profile3.image} name={profile3.name} role={profile3.role} linkedin={profile3.linkedin} github={profile3.github} gmail={profile3.gmail}/>
+      <Card  image={profile4.image} name={profile4.name} role={profile4.role} linkedin={profile4.linkedin} github={profile4.github} gmail={profile4.gmail}/>
+      <Card  image={profile5.image} name={profile5.name} role={profile5.role} linkedin={profile5.linkedin} github={profile5.github} gmail={profile5.gmail}/>
+      <Card  image={profile6.image} name={profile6.name} role={profile6.role} linkedin={profile6.linkedin} github={profile6.github} gmail={profile6.gmail}/>
+      <Card  image={profile7.image} name={profile7.name} role={profile7.role} linkedin={profile7.linkedin} github={profile7.github} gmail={profile7.gmail}/>
+      <Card  image={profile8.image} name={profile8.name} role={profile8.role} linkedin={profile8.linkedin} github={profile8.github} gmail={profile8.gmail}/>
+      <Card  image={profile9.image} name={profile9.name} role={profile9.role} linkedin={profile9.linkedin} github={profile9.github} gmail={profile9.gmail}/>
+      <Card  image={profile10.image} name={profile10.name} role={profile10.role} linkedin={profile10.linkedin} github={profile10.github} gmail={profile10.gmail}/>
+      <Card  image={profile11.image} name={profile11.name} role={profile11.role} linkedin={profile11.linkedin} github={profile11.github} gmail={profile11.gmail}/>
+      <Card  image={profile12.image} name={profile12.name} role={profile12.role} linkedin={profile12.linkedin} github={profile12.github} gmail={profile12.gmail}/>
     </div>
     </>
   )
